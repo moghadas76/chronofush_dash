@@ -1,4 +1,4 @@
-# chronofush_dash# Sensor Interpolation Dashboard
+# Sensor Interpolation Dashboard
 
 A Streamlit-based interactive dashboard for sensor data interpolation using PyTorch models with leaflet map visualization.
 
