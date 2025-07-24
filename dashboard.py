@@ -122,12 +122,7 @@ st.sidebar.title("Configuration")
 # Input 1: Model Selection
 st.sidebar.subheader("1. Select Super-Resolution Model")
 model_options = [
-    "SAITS (Self-Attention Imputation)", 
-    "BRITS (Bidirectional RNN)", 
-    "ST-Encoder (Spatio-Temporal)", 
-    "BiGRU Spatial Attention",
-    "Time Series Denoiser",
-    "IGNNK (Graph Neural Network)"
+    "ChronoFusion", 
 ]
 selected_model = st.sidebar.selectbox("Choose Model:", model_options)
 
